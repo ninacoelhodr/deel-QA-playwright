@@ -1,0 +1,92 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "specs\\cotract.spec.js",
+      "children" : [ {
+        "name" : "Create a contract",
+        "children" : [ {
+          "name" : "Create a fixed rate",
+          "uid" : "be0a533b33496e20",
+          "parentUid" : "939bd98bec600c08da5895daa5383d9f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649972858688,
+            "stop" : 1649972878440,
+            "duration" : 19752
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "939bd98bec600c08da5895daa5383d9f"
+      } ],
+      "uid" : "638e09b3f96997fe4712f88deab8fb91"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  }, {
+    "name" : "webkit",
+    "children" : [ {
+      "name" : "specs\\cotract.spec.js",
+      "children" : [ {
+        "name" : "Create a contract",
+        "children" : [ {
+          "name" : "Create a fixed rate",
+          "uid" : "97ec2b0b496b806e",
+          "parentUid" : "2de5ba628a7b927dc77cd635a7fb4d15",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649972858688,
+            "stop" : 1649972888739,
+            "duration" : 30051
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2de5ba628a7b927dc77cd635a7fb4d15"
+      } ],
+      "uid" : "4e27a413f4f3f717b6184a573b225178"
+    } ],
+    "uid" : "44063b3706d66b0d346705a4a77c6704"
+  }, {
+    "name" : "firefox",
+    "children" : [ {
+      "name" : "specs\\cotract.spec.js",
+      "children" : [ {
+        "name" : "Create a contract",
+        "children" : [ {
+          "name" : "Create a fixed rate",
+          "uid" : "d8f742015d5854a0",
+          "parentUid" : "121ed086ff7539ecce43466bbd7a77d8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1649972858688,
+            "stop" : 1649972889998,
+            "duration" : 31310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "121ed086ff7539ecce43466bbd7a77d8"
+      } ],
+      "uid" : "90a5afc0e82e52b11f7af519b1ea0319"
+    } ],
+    "uid" : "ed39c131db56604842b18253a0c76267"
+  } ]
+}

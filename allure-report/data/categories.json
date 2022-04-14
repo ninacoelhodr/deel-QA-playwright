@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 30000ms exceeded.",
+      "children" : [ {
+        "name" : "Create a fixed rate",
+        "uid" : "97ec2b0b496b806e",
+        "parentUid" : "243d80d303fd3cc7cb395edf69aec83a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649972858688,
+          "stop" : 1649972888739,
+          "duration" : 30051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create a fixed rate",
+        "uid" : "d8f742015d5854a0",
+        "parentUid" : "243d80d303fd3cc7cb395edf69aec83a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649972858688,
+          "stop" : 1649972889998,
+          "duration" : 31310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "243d80d303fd3cc7cb395edf69aec83a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

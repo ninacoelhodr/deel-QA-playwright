@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Apr 14 18:47:38 BRT 2022","Thu Apr 14 18:47:58 BRT 2022","19752","chromium","specs\cotract.spec.js","Create a contract","","","Create a fixed rate",""
+"broken","Thu Apr 14 18:47:38 BRT 2022","Thu Apr 14 18:48:08 BRT 2022","30051","webkit","specs\cotract.spec.js","Create a contract","","","Create a fixed rate",""
+"broken","Thu Apr 14 18:47:38 BRT 2022","Thu Apr 14 18:48:09 BRT 2022","31310","firefox","specs\cotract.spec.js","Create a contract","","","Create a fixed rate",""
